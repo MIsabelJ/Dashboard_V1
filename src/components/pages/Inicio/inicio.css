@@ -1,0 +1,27 @@
+.charts {
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.box {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.charts h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #252525;
+}
+
+#chart-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
